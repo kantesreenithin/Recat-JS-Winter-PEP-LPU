@@ -1,0 +1,41 @@
+body{
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+.container {
+border: 1px solid black;
+padding: 20px;
+width: 300px;
+}
+.todo_items {
+display: flex;
+align-items: center;
+}
+.del_btn{
+border-radius: 50%;
+width:30px;
+height: 30px;
+}
+.todo_item_text{
+width: 150px;
+margin-left:20px ;
+
+}
+.add_btn{
+padding: 10px;
+border-radius: 5px;
+border: none;
+}
+#input_box{
+border: none;
+border-radius: 5px;
+padding: 10px;
+max-width: 100%;
+}
+.input_checkbox_item{
+    width: 20px;
+    height: 20px;
+}
+.todo_item_text{
+    font-size: 20px;
+}
